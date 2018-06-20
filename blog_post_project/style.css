@@ -35,3 +35,15 @@ p {
     margin-left: auto;
     margin-right: auto;
 }
+
+.blog-post {
+    background-color: blue;
+}
+
+.other{
+    background-color: rgb(9, 248, 9);
+}
+
+.author-box {
+    background-color: yellow;
+}
