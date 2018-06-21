@@ -32,7 +32,7 @@ h1 {
 h2 {
     color: green;
     font-size: 25px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 p {
     text-align: justify;
@@ -47,6 +47,10 @@ p {
     width: 75%;
     float: left;
     padding-right: 30px;
+}
+
+.main-text {
+    margin-bottom: 20px;
 }
 
 .main-text1 {
@@ -77,3 +81,7 @@ p {
     float: left;
 }
 
+.blog-post img {
+    height: 150px;
+    width: auto;
+}
