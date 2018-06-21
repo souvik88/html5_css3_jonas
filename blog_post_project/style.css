@@ -51,13 +51,29 @@ p {
 
 .main-text1 {
     padding-bottom: 10px;
+    margin-bottom: 20px;
 }
-.other{
-    width: 25%;
+
+.author-text {
+    font-size: 22px;
     float: left;
+    margin-top:30px;
+    margin-left: 10px;
+}
+
+.other {
+    margin-bottom: 40px;
 }
 
 .author-box {
     padding-top: 20px;
-    border: 1px solid rgb(109, 109, 109);
+    border-top: 1px solid rgb(109, 109, 109);
 }
+
+.author-box img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    float: left;
+}
+
