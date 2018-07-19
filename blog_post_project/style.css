@@ -25,10 +25,6 @@ h1 {
     color: green;
 }
 
-.date{
-    margin-bottom: 20px;
-}
-
 h2 {
     color: green;
     font-size: 25px;
@@ -47,6 +43,7 @@ p {
     width: 75%;
     float: left;
     padding-right: 30px;
+    position: relative;
 }
 
 .main-text {
@@ -84,4 +81,10 @@ p {
 .blog-post img {
     height: 150px;
     width: auto;
+}
+
+.date{
+    position: absolute;
+    top: 10px;
+    right:30px;
 }
