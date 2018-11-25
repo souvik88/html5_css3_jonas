@@ -359,11 +359,28 @@ header {
     background-attachment: fixed;
 }
 
-blockquote{
+blockquote {
     padding: 2%;
     font-style: italic;
     line-height: 140%;
+    position: relative;
+    margin-top: 40px;
 }
+
+blockquote:before {
+    content:"\201C";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+
+/* blockquote:after {
+    content:"\201D";
+    font-size: 400%;
+}
+*/
 
 cite {
     font-size: 90%;
