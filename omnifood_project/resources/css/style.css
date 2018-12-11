@@ -312,6 +312,7 @@ header {
 .works-step:last-of-type{
     margin-bottom: 80px;
 }
+
 .works-step div {
     color: #e67e22;
     border: 2px solid #e67e22;
@@ -481,6 +482,7 @@ input[type=checkbox] {
 footer {
     background-color: #333;
     padding: 50px;
+    font-size: 80%;
 }
 
 .footer-nav {
@@ -516,7 +518,14 @@ footer {
 
 .social-links li a:link,
 .social-links li a:visited {
-    font-size: 180%;
+    font-size: 160%;
+}
+
+.ion-social-facebook,
+.ion-social-twitter,
+.ion-social-googleplus,
+.ion-social-instagram {
+    transition: 0.2s;
 }
 
 .ion-social-facebook:hover {
@@ -537,6 +546,5 @@ footer {
 footer p {
     color: rgb(192, 192, 192);
     text-align: center;
-    font-size: 90%;
-    margin-top: 30px;
+    margin-top: 20px;
 }
