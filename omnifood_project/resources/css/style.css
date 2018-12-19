@@ -225,7 +225,7 @@ header {
 .main-nav {
     float: right;
     list-style: none;
-    margin: 55px;
+    margin-top: 55px;
 }
 
 .main-nav li {
@@ -242,10 +242,10 @@ header {
     font-size: 90%;
     border-bottom: 2px solid transparent;
     transition: border-bottom 0.2s;
-    -webkit-transition: border-bottom 0.2s;
-    -moz-transition: border-bottom 0.2s;
-    -ms-transition: border-bottom 0.2s;
-    -o-transition: border-bottom 0.2s;
+    -webkit-transition:;
+    -moz-transition:;
+    -ms-transition:;
+    -o-transition:;
 }
 
 .main-nav li a:hover,
@@ -253,6 +253,18 @@ header {
     border-bottom: 2px solid #e67e22;
 }
 
+/* Mobile navi */
+.mobile-nav-icon {
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-nav-icon i {
+    font-size: 200%;
+    color: #fff;
+}
 /* sticky navi */
 
 .sticky {
